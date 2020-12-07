@@ -1,0 +1,239 @@
+.image {
+width: 49vh;
+padding-top: 10px;
+/* padding-left: 210px; */
+float: left;
+/* background-color: red; */
+}
+.text{
+    font-size: 30px;
+    /* text-align: left; */
+    padding-top: 90px;
+    padding-left: 25px;
+    /* -ms-text-kashida-space: 0%; */
+    font-weight: initial;
+    text-align: justify;
+}
+body{
+    background-attachment: fixed;
+    background-color: rgb(240, 242, 245);
+}
+.container{
+   width: 400px;
+   margin: auto;
+   background-color:  rgb(255,255, 255);
+   position: absolute;
+   top: 140px;
+   border-radius: 15px;
+   padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+   right: 140px;
+}
+ #log{
+    text-align: center;
+    font-size: 23px;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(24, 119, 242);
+    border-radius: 8px;
+    border-color:  rgb(24, 119, 242);
+    color: white;
+    border: none;
+    margin: 8px;
+    margin-left: 23px;
+}
+.imager{
+    position: absolute;
+    left: 200px;
+    top: 170px;
+}
+.create{
+    
+    font-size: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(66, 183, 42);
+    border-radius: 8px;
+    border-color:  rgb(66, 183, 42);
+    color: white;
+    position: absolute;
+    left: 85px;
+    /* outline: none; */
+    border: none;
+    margin: 4px;
+    margin-top: 20px;
+}
+.forgot{
+    color: rgb(24, 119, 242);
+    text-align: center;
+    margin-top: 10px;
+    outline: none;
+
+}
+
+ .ini{
+     /* text-align: inherit; */
+    margin: 5px;
+    padding-right: 200px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    opacity: .4;
+} 
+
+.ini2{
+
+    margin: 3px;
+    padding-right: 200px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    opacity: .4;
+}
+input:focus{
+    outline: none;
+    
+}
+.ini2::placeholder{
+    font-size: 15px;
+    
+}
+.ini::placeholder{
+    font-size: 15px;
+    text-align: initial;
+    /* letter-spacing: 0mm; */
+    word-spacing: -1pt;
+}
+input:hover{
+    border-color:rgb(24, 119, 242);
+    border-radius: 10px;
+}
+#log:hover{
+    background-color:rgb(17, 102, 192);
+}
+.create:hover{
+    background-color:  rgb(49, 131, 32);
+}
+#link{
+   color:  black;
+   /* outline: none; */
+   text-decoration: none;
+   
+}
+.para{
+    font-size: 15px;
+    position: absolute;
+    left: 850px;
+    top: 550px;
+    /* bottom: 20px; */
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:400px) {
+    .imager{
+
+        position: absolute;
+        /* align-items: center; */
+     }
+     .image{
+         /* width: 200px; */
+         height: 50px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         
+     }
+     .text{
+         text-align: justify;
+         font-size: 10px;
+         position: relative;
+         top: 5px;
+         left: 15px;
+         right: 23px;
+         display: none;
+     }
+     .container{
+         padding: 34px;
+         position: absolute;
+         top: 50px;
+         position: absolute;
+         /* background-color:  rgb(255,255, 255); */
+     }
+     input{
+         margin-top: 5px;
+         margin-bottom: 5px;
+         padding-top: 8px;
+         padding-right:20px;
+         padding-left: 20px;
+         outline: none;
+         opacity: .4;
+         border-radius: 5px;
+         
+        background: rgba(148, 145, 145, 0.993);
+        
+        
+     
+     
+     }
+     input::placeholder{
+         /* font-size: 10px; */
+         font-weight: 300;
+         /* background: rgba(148, 145, 145, 0.993); */
+         color: black;
+     
+     }
+     input:focus{
+         outline: none;
+     
+     }
+     body{
+         background-attachment: fixed;
+         background-color: rgb(240, 242, 245);
+     }
+     .forgot{
+         text-align: center;
+     
+     }
+     a{
+         text-decoration: none;
+         color: rgb(24, 119, 242);
+     }
+     #log{
+         padding-right: 90px;
+         padding-left: 90px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         margin-top: 12px;
+         margin-bottom: 5px;
+         background-color: rgb(24, 119, 242);
+         border: rgb(24, 119, 242);
+         outline: none;
+         color: white;
+     
+     
+     }
+     .create{
+         
+         font-size: 2 px;
+         padding-right: 70px;
+         padding-left: 70px;
+         padding-top: 1px;
+         padding-bottom: 1px;
+         background-color: rgb(66, 183, 42);
+         border-color:  rgb(66, 183, 42);
+         color: white;
+     }
+     body{
+         background-color: red;
+     }
+}

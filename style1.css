@@ -1,0 +1,392 @@
+.imager{
+   /* position: absolute; */
+   /* align-items: center; */
+}
+.image{
+    /* width: 200px; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.para{
+    display: none;
+}
+.text{
+    text-align: justify;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    right: 23px;
+    display: none;
+}
+.container{
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    /* background-color:  rgb(255,255, 255); */
+}
+input{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-right:30px;
+    padding-left: 30px;
+    outline: none;
+    opacity: .4;
+    border-radius: 5px;
+    
+   background: rgba(148, 145, 145, 0.993);
+   /* position: absolute; */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+   
+
+
+}
+input::placeholder{
+    /* font-size: 10px; */
+    font-weight: 300;
+    /* background: rgba(148, 145, 145, 0.993); */
+    color: black;
+
+}
+input:focus{
+    outline: none;
+
+}
+body{
+    background-attachment: fixed;
+    background-color: rgb(240, 242, 245);
+}
+.forgot{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+}
+.log{
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: auto;
+    margin-bottom:auto;
+    background-color: rgb(24, 119, 242);
+    border: rgb(24, 119, 242);
+    outline: none;
+    color: white;
+   margin-right: auto;
+   margin-left: auto;
+   
+   
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.create{
+    
+    font-size: 2 px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(66, 183, 42);
+    border:  rgb(66, 183, 42);
+    color: white;
+}
+@media screen and (min-width: 767px){
+    
+    .imager{
+        /* position: absolute; */
+        /* align-items: center; */
+     }
+     .image{
+         /* width: 200px; */
+         height: 180px;
+         display: flex;
+         align-items: left;
+         justify-content: center;
+         margin-left: auto;
+         margin-right: auto;
+         width: 500px
+         
+     }
+     .para{
+         display: none;
+     }
+     .text{
+         text-align: justify;
+         font-size: 10px;
+         position: relative;
+         top: 5px;
+         left: 15px;
+         right: 23px;
+         display: none;
+     }
+     .container{
+         padding: 90px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 300px;
+         /* background-color:  rgb(255,255, 255); */
+     }
+     input{
+         margin-top: 5px;
+         margin-bottom: 5px;
+         padding-top: 25px;
+         padding-bottom: 8px;
+         padding-right:100px;
+         padding-left: 100px;
+         outline: none;
+         opacity: .4;
+         border-radius: 5px;
+         
+        background: rgba(148, 145, 145, 0.993);
+        /* position: absolute; */
+       display: block;
+       margin-right: auto;
+       margin-left: auto;
+     
+        
+     
+     
+     }
+     input::placeholder{
+         font-size: 20px;
+         font-weight: 300;
+         /* background: rgba(148, 145, 145, 0.993); */
+         color: black;
+         text-align: initial;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         /* margin-left: 2px; */
+         /* display: absolute;
+         left: 0px; */
+     
+     }
+     input:focus{
+         outline: none;
+     
+     }
+     body{
+         background-attachment: fixed;
+         background-color: rgb(240, 242, 245);
+     }
+     .forgot{
+         text-align: center;
+         font-size: 23px;
+
+     
+     }
+     a{
+         text-decoration: none;
+         color: rgb(24, 119, 242);
+     }
+     .log{
+         padding-right: 150px;
+         padding-left: 150px;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         margin-top: auto;
+         margin-bottom:auto;
+         background-color: rgb(24, 119, 242);
+         border: rgb(24, 119, 242);
+         outline: none;
+         color: white;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 23px;
+        
+        
+     }
+     .center{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+     }
+     .create{
+         
+         font-size: 2 px;
+         padding-right: 120px;
+         padding-left: 120px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         background-color: rgb(66, 183, 42);
+         border:  rgb(66, 183, 42);
+         color: white;
+         font-size: 15px;
+}
+}
+@media screen and (min-width: 1300px){
+    .image {
+        width: 390px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin-bottom: -50px;
+        /* padding-left: 210px; */
+        float: left;
+        /* background-color: red; */
+        }
+        .text{
+            font-size: 25px;
+            /* text-align: left; */
+            padding-top: 5px;
+            padding-left: 30px;
+            /* -ms-text-kashida-space: 0%; */
+            font-weight: initial;
+            text-align: justify;
+            display: block;
+            margin-top: 0px;
+           position: relative;
+
+            
+        }
+        body{
+            background-attachment: fixed;
+            background-color: rgb(240, 242, 245);
+        }
+        .container{
+           width: 400px;
+           margin: auto;
+           background-color:  rgb(255,255, 255);
+           position: absolute;
+           top: 140px;
+           border-radius: 15px;
+           padding-left: 30px;
+          padding-top: 30px;
+          padding-right: 30px;
+          padding-bottom: 80px;
+           right: 140px;
+        }
+         .log{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 23px;
+            padding-right: 140px;
+            padding-left: 140px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: rgb(24, 119, 242);
+            border-radius: 8px;
+            border-color:  rgb(24, 119, 242);
+            color: white;
+            border: none;
+            margin: 8px;
+            margin-left: 23px;
+            margin-right: 23px;
+        }
+        .imager{
+            position: absolute;
+            left: 150px;
+            top: 170px;
+        }
+        .create{
+            
+            font-size: 18px;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(66, 183, 42);
+            border-radius: 8px;
+            border-color:  rgb(66, 183, 42);
+            color: white;
+            position: absolute;
+            left: 85px;
+            /* outline: none; */
+            border: none;
+            margin: 4px;
+            margin-top: 20px;
+        }
+        .forgot{
+            color: rgb(24, 119, 242);
+            text-align: center;
+            margin-top: 10px;
+            outline: none;
+            font-size: 15px;
+        
+        }
+        
+         .ini{
+             /* text-align: inherit; */
+            margin: 5px;
+            padding-right: 200px;
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            opacity: .4;
+            background-color: white;
+        } 
+        
+        .ini2{
+        
+            margin: 3px;
+            padding-right: 200px;
+            padding-left: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            opacity: .4;
+            background-color: white;
+        }
+        input:focus{
+            outline: none;
+            
+        }
+        .ini2::placeholder{
+            font-size: 15px;
+            
+        }
+        .ini::placeholder{
+            font-size: 15px;
+            text-align: initial;
+            /* letter-spacing: 0mm; */
+            word-spacing: -1pt;
+        }
+        input:hover{
+            border-color:rgb(24, 119, 242);
+            border-radius: 10px;
+        }
+        .log:hover{
+            background-color:rgb(17, 102, 192);
+        }
+        .create:hover{
+            background-color:  rgb(49, 131, 32);
+        }
+        #link{
+           color:  black;
+           /* outline: none; */
+           text-decoration: none;
+           
+        }
+        .para{
+            font-size: 15px;
+            position: absolute;
+            left: 850px;
+            top: 550px;
+            /* bottom: 20px; */
+        }
+        a{
+            text-decoration: none;
+        }
+}
